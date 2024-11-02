@@ -1,37 +1,33 @@
-# Proyecto: Sistema de Contacto
+Project: Contact System
+This project is a basic contact system developed in Java using Swing for the graphical interface. It allows 
+users to submit contact information and receive feedback.
 
-Este proyecto es un sistema básico de contacto desarrollado en Java utilizando Swing para la interfaz gráfica. Permite a los usuarios enviar información de contacto y recibir retroalimentación.
+Project Structure
 
-## Estructura del Proyecto
+The project consists of two main classes:
 
-El proyecto consta de dos clases principales:
+NewJFrame
+	This class represents the main window of the contact form.
+	It allows users to enter their name, ID (RUT), address, region, and phone number, as well as a reason for contact.
+	It includes buttons to submit and cancel the action.
 
-1. NewJFrame
-   - Esta clase representa la ventana principal del formulario de contacto.
-   - Permite a los usuarios ingresar su nombre, RUT, dirección, región y teléfono, además de un motivo de contacto.
-   - Incluye botones para enviar y cancelar la acción.
+FormularioEnviado
+	This class is a dialog shown after submitting the form.
+	It provides a series of evaluation fields about the user’s experience while filling out the form.
+	It includes a button to finish and close the application.
 
-2. FormularioEnviado
-   - Esta clase es un diálogo que se muestra después de enviar el formulario.
-   - Proporciona una serie de campos de evaluación sobre la experiencia del usuario al llenar el formulario.
-   - Incluye un botón para finalizar y cerrar la aplicación.
+Requirements:
 
-Requisitos:
+Java Development Kit (JDK): Make sure you have JDK 8 or higher installed.
+IDE: It is recommended to use an IDE like IntelliJ IDEA, Eclipse, or NetBeans to facilitate running or editing.
+How to Use:
 
-- Java Development Kit (JDK): Asegúrate de tener instalado JDK 8 o superior.
-- IDE: Se recomienda utilizar un IDE como IntelliJ IDEA, Eclipse o NetBeans para facilitar la ejecucion o edicion.
+Run the application, and the contact window will open.
+Fill in the required fields.
+Click "Submit" to send the form. A new dialog will open, allowing you to evaluate your experience.
+Click "Finish" to close the application.
+Features
 
-Cómo usar:
-
-Al ejecutar la aplicación, se abrirá la ventana de contacto.
-Completa los campos requeridos.
-Haz clic en "Enviar" para enviar el formulario. Se abrirá un nuevo diálogo donde podrás evaluar tu experiencia.
-Haz clic en "Finalizar" para cerrar la aplicación.
-
-Funcionalidades
-
-Ingreso de datos: Permite a los usuarios ingresar su información de contacto.
-
-Evaluación de satisfacción: Después de enviar el formulario, los usuarios pueden evaluar diferentes aspectos del formulario.
-
-Interfaz gráfica: Utiliza componentes de Swing para una experiencia de usuario amigable.
+Data Entry: Allows users to enter their contact information.
+Satisfaction Evaluation: After submitting the form, users can evaluate different aspects of the form.
+Graphical Interface: Uses Swing components for a user-friendly experience.
